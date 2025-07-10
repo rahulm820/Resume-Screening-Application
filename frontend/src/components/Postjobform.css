@@ -1,0 +1,93 @@
+.post-job-page {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  /* Updated sidebar class name */
+  .post-job-sidebar {
+    background-color: #6c8eff;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 40px 20px;
+    width: 15%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding: 2rem 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+  }
+  
+  .post-job-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    width: 70%;
+  }
+  
+  .form-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #1a1a1a;
+  }
+  
+  .job-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    gap: 16px;
+  }
+  
+  .job-form input,
+  .job-form select,
+  .job-form textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .job-form input:focus,
+  .job-form select:focus,
+  .job-form textarea:focus {
+    outline: none;
+    border-color: #6c8eff;
+    box-shadow: 0 0 0 2px rgba(108, 142, 255, 0.2);
+  }
+  
+  .submit-btn {
+    padding: 12px;
+    background-color: #6c8eff;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  .submit-btn:hover {
+    background-color: #547ae7;
+  }
+  

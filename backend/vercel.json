@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "index.js"
+    }
+  ],
+  "env": {
+    "PORT": "5000",
+    "MongoDB_URL": "mongodb+srv://DeepakParyani:deepakbaba@cluster0ptcerp.ovhgf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0PTCERP",
+    "JWT_SECRET": "yashparyani",
+    "NODE_ENV": "development"
+  }
+}
